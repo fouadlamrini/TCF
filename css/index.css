@@ -1,5 +1,6 @@
 *{margin: 0;
-padding: 0;}
+padding: 0;
+box-sizing: border-box;}
 
 .image {
     width: 100%;
@@ -28,7 +29,7 @@ img {
     font-weight: bold;
 }
 
-button {
+.button1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -41,11 +42,4 @@ button {
     cursor: pointer;
     }
 
-    .quezz{
-        width: 100%;
-        height: 100vh;
-        background-color: red;
-        position: absolute;
-        top: 0;
-        /* display: none; */
-    }
+   
