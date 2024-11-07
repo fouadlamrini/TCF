@@ -9,7 +9,7 @@
      background: radial-gradient(circle at 50% 50%, #1a1a2e, #16213e, #0f3460, #53354a);
 
      display: none;
-     /* overflow: hidden; */
+     overflow: hidden;
  }
 
 .Questions{display: flex;
