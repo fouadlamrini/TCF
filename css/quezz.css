@@ -15,7 +15,7 @@
 .Questions{display: flex;
 flex-direction: column;
 justify-content: space-around;
-height: 84%;
+height: 74%;
 width: 50%;
 position: relative;
 left: 10%;
@@ -32,9 +32,9 @@ top: 5%;
     font-weight: bold;
     font-size: 20px;
     
-    height: 80px;
+    height: 60px;
     width: 60%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 20%;
     cursor: pointer;
     border-radius: 40px;
@@ -53,17 +53,33 @@ font-size: 30px;
 .button3 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
-    height: 70px;
-    width: 65%;
+    height: 60px;
+    width: 60%;
     margin-bottom: 2%;
     margin-left: 20%;
     background-color: red;
     cursor: pointer;
     color: white;
+    
     }
     .p{position: relative;
     top: 20px;}
 
     #question{text-align: center;}
+
+   
+    #showScore{   font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        height: 60px;
+        width: 60%;
+        margin-bottom: 2%;
+        margin-left: 20%;
+        background-color: red;
+        cursor: pointer;
+        color: white;}
+        #questionCounter{position: relative;
+        left: 22%;}
